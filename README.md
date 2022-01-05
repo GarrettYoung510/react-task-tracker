@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# [React Task Tracker](http://GarrettYoung510.github.io/react-task-tracker)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Toggle Task Form**
 
-## Available Scripts
+![Toggle Task Form](https://p12.f2.n0.cdn.getcloudapp.com/items/X6u827bQ/b358ca39-d275-4164-8ba4-4d8232ff1fd6.gif?v=6621c7b025fcc3c3b6b975a93d9cf48a)
 
-In the project directory, you can run:
+**Add Task**
 
-### `npm start`
+![Add Task](https://p12.f2.n0.cdn.getcloudapp.com/items/KouYQEAn/0d2ba469-1ee1-448d-9b61-14da10f350af.gif?v=6855c7eaec0ccbc07e23256064bf982a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Delete Task**
+![Delete Task](https://p12.f2.n0.cdn.getcloudapp.com/items/llu6wXgv/a1237d74-5510-492f-8fde-8b36d9cabe37.gif?v=d71f89e1748b84d57e854230573d152a)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Toggle Reminder**
+![Toggle Reminder](https://p12.f2.n0.cdn.getcloudapp.com/items/KouYQE9L/465d6ddd-987d-44a0-8ada-2e813df03cd5.gif?v=3e3e9415131e065c31765ee8ec21e0e1)
 
-### `npm test`
+## Summary
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Refresher for react (components, arrow functions, state, github), basic task tracker
