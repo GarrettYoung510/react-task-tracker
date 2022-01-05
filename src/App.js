@@ -1,7 +1,8 @@
+import React from 'react'
 import { useState } from 'react'
 import Header from './components/Header'
 import Tasks from './components/Tasks'
-import React from 'react'
+import AddTask from './components/AddTask'
 
 function App() {
 
@@ -9,17 +10,30 @@ function App() {
 
     {
       id: 1,
-      text: 'Study AWS',
+      text: 'Code',
       day: 'Jan 4 at 3:30 pm',
       reminder: true,
     },
     {
       id: 2,
-      text: 'Study Kubernetes',
-      day: 'feb 1 at 2:30 pm',
+      text: 'Eat',
+      day: 'Feb 1 at 2:30 pm',
+      reminder: true,
+    },
+    {
+      id: 3,
+      text: 'Sleep',
+      day: 'Never',
       reminder: true,
     }
   ])
+
+  // Add Task
+  const addTask = (task) => {
+    const id = Math.floor(Math.random() * 10000) + 1
+    const newTask = { id, ...task }
+    setTasks([...tasks, newTask])
+  }
 
   // Delete Task
   const deleteTask = (id) => {
@@ -28,12 +42,14 @@ function App() {
 
   //Toggle reminder
   const toggleReminder = (id) => {
-    console.log(id)
+    // if the task's id is equal to id passed in, spread all task values but change the reminder, else task
+    setTasks(tasks.map((task) => task.id === id ? { ...task, reminder: !task.reminder } : task))
   }
 
   return (
     <div className="container">
       <Header />
+      <AddTask onAdd={addTask} />
       {tasks.length > 0 ?
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} /> : 'No Tasks to show'
       }
